@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:eu-west-1:987654321098:my-sns-topic:7a736b10-cabf-4dd9-97df-21071810e8ee",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "1b2814a9-b19e-567d-9299-4c479cc824e0",
+        "TopicArn": "arn:aws:sns:eu-west-1:987654321098:my-sns-topic",
+        "Subject": "Amazon S3 Notification",
+        "Message": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"eu-west-1\",\"eventTime\":\"2021-04-12T11:12:18.073Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"AWS:AROAINPZFXXCKREDACTED:regionalDeliverySession\"},\"requestParameters\":{\"sourceIPAddress\":\"1.1.1.1\"},\"responseElements\":{\"x-amz-request-id\":\"AZP109ETK12AWGV1\",\"x-amz-id-2\":\"y0bq..Be\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"tf-s3-topic-20210412110948413900000001\",\"bucket\":{\"name\":\"my-cloudtrail-bucket\",\"ownerIdentity\":{\"principalId\":\"A31WG8EUIFWOGW\"},\"arn\":\"arn:aws:s3:::mx-cloudtrail-bucket\"},\"object\":{\"key\":\"dir/to/cloudtrail.json.gz\",\"size\":1030,\"eTag\":\"a4cdcece312ab701bb7a17db237a429d\",\"versionId\":\"FAzcYEVvgvrfAVxJ9xzpiWd5sq3VGVin\",\"sequencer\":\"0060742B14D3686DBE\"}}}]}",
+        "Timestamp": "2021-04-12T11:12:22.190Z",
+        "SignatureVersion": "1",
+        "Signature": "JotVbPkgENXaQ4M2fE2516EmomZnwkwWXmprAjcLv77FwihvbPxHKIg51m0besbIKC4gcgwIIc0+ZL7DO4s/vPVWGZ3BIJFPgHjVwQb/HnHpR0Ga7ySL3ylTwE18w9DS1vDie+9lGkD9ZuW4hhkSDDbfOcgm+u+MP8aYRKTNepsvwreMBTqhdkuKHq/HrnDTCMWxJm/Ka40YPhUxIC1sTpY6T35a7c5z9Ax2XuBtpIYZh75O53cfL0/GW+wnkwgmlPmm5bBCRm9gCQvmX9eroE/0VwZ7nUsVcKGaqMhrQzriIEggWRLY77oAqsf2nmnc1z0FdbU+GU7zXMHv3q7niQ==",
+        "SigningCertUrl": "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+        "UnsubscribeUrl": "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:987654321098:my-sns-topic:7a736b10-cabf-4dd9-97df-21071810e8ee",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}
