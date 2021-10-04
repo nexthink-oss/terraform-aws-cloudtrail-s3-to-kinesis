@@ -1,0 +1,6 @@
+.vscode
+**/lambda.zip
+**/terraform.tfstate*
+**/.terraformlambda.zip
+.terraform
+**/.terraform.lock.hcl
